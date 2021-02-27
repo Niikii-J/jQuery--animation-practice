@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(4, 69, 79, 1) 0%,
+    rgba(9, 121, 95, 1) 35%,
+    rgba(0, 255, 226, 1) 100%
+  );
+}
+
+button {
+  padding: 30px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+#bye {
+  color: white;
+  border: 2px solid white;
+  background: rgb(0, 28, 51);
+  background: linear-gradient(
+    283deg,
+    rgba(0, 28, 51, 1) 0%,
+    rgba(0, 50, 38, 1) 35%,
+    rgba(2, 121, 108, 1) 100%
+  );
+}
+
+#nope {
+  color: orangered;
+  border: 2px solid orangered;
+  background: white;
+}
+
+.center {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(0, -50%);
+}
