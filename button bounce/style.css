@@ -3,13 +3,11 @@ body {
   height: 100%;
   overflow: hidden;
 }
-body {
-  background: linear-gradient(
-    90deg,
-    rgba(4, 69, 79, 1) 0%,
-    rgba(9, 121, 95, 1) 35%,
-    rgba(0, 255, 226, 1) 100%
-  );
+
+html body,
+body body {
+  background: -webkit-gradient(linear, left top, right top, from(#04454f), color-stop(35%, #09795f), to(#00ffe2));
+  background: linear-gradient(90deg, #04454f 0%, #09795f 35%, #00ffe2 100%);
 }
 
 button {
@@ -21,13 +19,8 @@ button {
 #bye {
   color: white;
   border: 2px solid white;
-  background: rgb(0, 28, 51);
-  background: linear-gradient(
-    283deg,
-    rgba(0, 28, 51, 1) 0%,
-    rgba(0, 50, 38, 1) 35%,
-    rgba(2, 121, 108, 1) 100%
-  );
+  background: #001c33;
+  background: linear-gradient(283deg, #001c33 0%, #003226 35%, #02796c 100%);
 }
 
 #nope {
@@ -41,5 +34,7 @@ button {
   position: absolute;
   top: 50%;
   left: 45%;
-  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
+/*# sourceMappingURL=style.css.map */
